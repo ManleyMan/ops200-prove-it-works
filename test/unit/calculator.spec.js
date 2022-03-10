@@ -35,7 +35,7 @@ describe('Calculator', () => {
         expect(calculator.divide).to.exist;
     })
 
-    it('should divide 2/2 correctly', ()=> {
+    it('should divide 2/2 correctly', () => {
         expect(calculator.divide(2,2)).to.equal(1);
     })
 })
